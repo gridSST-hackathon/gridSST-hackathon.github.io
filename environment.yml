@@ -15,4 +15,5 @@ dependencies:
   - jupytext
   - pandas[version='>=1.4.3']
   - myst-parser
+  - pydata-sphinx-theme
 prefix: /opt/anaconda3/envs/gridsst-site
