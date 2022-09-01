@@ -1,0 +1,17 @@
+name: gridsst-site
+channels:
+  - defaults
+dependencies:
+  - sphinx[version='>=5.0.2']
+  - pydata-sphinx-theme[version='>=0.9.0']
+  - numpy[version='>=1.23.1']
+  - ipywidgets[version='>=7.7.1']
+  - ablog[version='>=0.10.26']
+  - xarray[version='>=2022.3.0']
+  - myst-nb[version='>=0.16.0']
+  - python[version='>=3.10']
+  - sphinx-design[version='>=0.2.0']
+  - sphinx-autobuild[version='>=2021.3.14']
+  - jupytext
+  - pandas[version='>=1.4.3']
+prefix: /opt/anaconda3/envs/gridsst-site
