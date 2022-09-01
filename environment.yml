@@ -14,4 +14,5 @@ dependencies:
   - sphinx-autobuild[version='>=2021.3.14']
   - jupytext
   - pandas[version='>=1.4.3']
+  - myst-parser
 prefix: /opt/anaconda3/envs/gridsst-site
