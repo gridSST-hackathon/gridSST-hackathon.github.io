@@ -16,6 +16,7 @@ release = '0.1'
 
 extensions = [
     "myst_parser", # enable sphinx to render markdown files
+    "myst_nb", # render jupyter notebook tutorials
 ]
 
 templates_path = ['_templates']
