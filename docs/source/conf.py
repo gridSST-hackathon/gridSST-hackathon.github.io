@@ -15,8 +15,9 @@ release = '0.1'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    "myst_parser", # enable sphinx to render markdown files
+    #"myst_parser", # enable sphinx to render markdown files
     "myst_nb", # render jupyter notebook tutorials
+    "sphinx.ext.autosectionlabel", # automatically make markdown headers referencable 
 ]
 
 templates_path = ['_templates']
