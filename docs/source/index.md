@@ -12,7 +12,11 @@
 Check back soon for more information! 
 ```
 
+For more information about this event, check out {doc}`about/index`
+
 ```{toctree}
 :caption: 'Contents:'
 :maxdepth: 2
+
+about/index
 ```
