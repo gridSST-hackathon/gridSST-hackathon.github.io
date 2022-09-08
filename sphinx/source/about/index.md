@@ -1,1 +1,0 @@
-# About the Grid SST Hackathon
