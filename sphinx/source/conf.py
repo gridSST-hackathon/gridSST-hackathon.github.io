@@ -6,10 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'gridsst'
-copyright = '2022, gridsst hackathon contributors'
+project = 'Grid SST Hackathon'
+copyright = '2022, Grid SST Hackathon'
 author = 'gridsst hackathon contributors'
-release = '0.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -28,5 +27,22 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
+html_title = "Grid SST Hackathon"
 html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
+html_theme_options = {
+    "search_bar_text": "Search this site...",
+    "navbar_end": ["search-field.html", "navbar-icon-links"],
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/gridSST-hackathon",
+            "icon": "fab fa-github-square",
+        }
+    ]
+}
+html_sidebars = {
+    "**": [
+        "sidebar-nav-bs.html"
+    ]
+}
