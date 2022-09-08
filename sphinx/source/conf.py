@@ -42,7 +42,11 @@ html_theme_options = {
     ]
 }
 html_sidebars = {
+    "index": [
+        "logo.html"
+    ],
     "**": [
+        "logo.html",
         "sidebar-nav-bs.html"
     ]
 }
