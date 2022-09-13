@@ -12,11 +12,14 @@
 Check back soon for more information! 
 ```
 
-For more information about this event, check out the {doc}`about` page
+For more information about this event, check out the {doc}`about/index` page.
+
+If you're interested in applying, navigate to the {doc}`apply/index` page.
 
 ```{toctree}
-:caption: 'Contents:'
+:hidden:
 :maxdepth: 2
 
-about
+about/index
+apply/index
 ```
