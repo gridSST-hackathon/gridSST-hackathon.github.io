@@ -17,6 +17,7 @@ extensions = [
     #"myst_parser", # enable sphinx to render markdown files
     "myst_nb", # render jupyter notebook tutorials
     "sphinx.ext.autosectionlabel", # automatically make markdown headers referencable 
+    "sphinx_design",
 ]
 
 templates_path = ['_templates']
