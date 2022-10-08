@@ -4,7 +4,7 @@ The goal of this hackathon is to kickstart the development of a new open-source 
 
 This 5-day event will be held at the University of Washington in Seattle, WA, October 31 to November 4, 2022. 
 
-Interested in participating? [Click here to apply!](apply)
+<!-- Interested in participating? [Click here to apply!](apply) -->
 
 ## What is a Hackathon?
 

@@ -4,19 +4,14 @@ The Grid SST Hackathon is a 5-day event to be held at the University of Washingt
 
 Participants from a variety of research interests and backgrounds, including satellite remote sensing, physical oceanography, cloud computing, and data science and machine learning, are encouraged to apply. We are planning for a hands-on, productive, and fun-filled week!  
 
-```{admonition} Join us at the Grid SST Hackathon!
+Travel funds and lodgings are available for applicants coming from within the U.S.  Applicants will be notified of decisions by October 1. 
+
+```{admonition} Interested in the 2022 Grid SST Hackathon?
 :class: note
 
-We're currently accepting applicants for the Grid SST Hackathon! The event will be held October 31 through November 4 at the University of Washington in Seattle and virtually. Applications will close on **September 28, 2022.**
+<b/>Applications for the Grid SST Hackathon are currently closed.</b> If you're interested in participating in the event, please reach out to Alison Gray at argray@uw.edu.
 
-```{button-link} apply.html
-:color: primary
-:expand:
-:tooltip: Grid SST Registration
-Click here to apply 
 ```
-
-Travel funds and lodgings are available for applicants coming from within the U.S.  Applicants will be notified of decisions by October 1. 
 
 ## The Challenge
 
