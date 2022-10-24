@@ -1,5 +1,7 @@
 ## JupyterHub
 
+All participants will be invited to work in a JupyterHub for this event. If you aren’t familiar with JupyterHub, JupyterLab, or Jupyter notebooks, additional information will be added to this page.
+
 ## References and Resources
 
 - [Why Jupyter is data scientists’ computational notebook of choice. An improved architecture and enthusiastic user base are driving uptake of the open-source web tool (Nature, 2018-10)](https://www.nature.com/articles/d41586-018-07196-1)
