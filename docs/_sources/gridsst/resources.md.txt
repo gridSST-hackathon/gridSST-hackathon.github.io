@@ -1,6 +1,6 @@
-# Learning Resources 
+# Resources 
 
-Include resources for open science, python programming, and git/GitHub.
+Include resources for open science, python programming, Jupyter Hub, and git/GitHub.
 
 
 # Open-Source Science

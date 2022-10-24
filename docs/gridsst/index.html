@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Home &#8212; Grid SST Hackathon</title>
+    <title>Grid SST Hackathon &#8212; Grid SST Hackathon</title>
 <script>
   document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
   document.documentElement.dataset.theme = localStorage.getItem("theme") || "light"
@@ -90,13 +90,7 @@
         <ul id="navbar-main-elements" class="navbar-nav">
     <li class="toctree-l1 current active nav-item">
  <a class="current reference internal nav-link" href="#">
-  Home
- </a>
-</li>
-
-<li class="toctree-l1 nav-item">
- <a class="reference internal nav-link" href="apply.html">
-  Apply
+  Grid SST Hackathon
  </a>
 </li>
 
@@ -154,7 +148,7 @@
   <div class="bd-toc-item active">
     <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Grid SST 2022
+  Event Information
  </span>
 </p>
 <ul class="nav bd-sidenav">
@@ -164,8 +158,47 @@
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="apply.html">
-   Information for Applicants
+  <a class="reference internal" href="schedule.html">
+   Schedule
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="logistics.html">
+   Logistics
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Resources
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="github.html">
+   Git and GitHub
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="python.html">
+   Python
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="jupyter.html">
+   JupyterHub
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Additional Information
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="coc.html">
+   Code of Conduct
   </a>
  </li>
 </ul>
@@ -192,10 +225,22 @@
 
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Grid SST Hackathon
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#the-challenge">
    The Challenge
   </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#information-for-participants">
+   Information for Participants
+  </a>
+  <ul class="visible nav section-nav flex-column">
+  </ul>
  </li>
 </ul>
 
@@ -216,30 +261,46 @@
               
               <article class="bd-article" role="main">
                 
-  <section id="home">
-<h1>Home<a class="headerlink" href="#home" title="Permalink to this headline">#</a></h1>
+  <section id="grid-sst-hackathon">
+<h1>Grid SST Hackathon<a class="headerlink" href="#grid-sst-hackathon" title="Permalink to this headline">#</a></h1>
 <p>The Grid SST Hackathon is a 5-day event to be held at the University of Washington in Seattle and virtually on <strong>October 31 through November 4, 2022.</strong> The goal of this 5-day event is to kickstart development of a new, community-created, open-source and cloud-based algorithm to blend multiple remotely-sensed SST data streams into a global, 1-km, daily, gridded product.</p>
-<p>Participants from a variety of research interests and backgrounds, including satellite remote sensing, physical oceanography, cloud computing, and data science and machine learning, are encouraged to apply. We are planning for a hands-on, productive, and fun-filled week!</p>
-<p>Travel funds and lodgings are available for applicants coming from within the U.S.  Applicants will be notified of decisions by October 1.</p>
-<div class="note admonition">
-<p class="admonition-title">Interested in the 2022 Grid SST Hackathon?</p>
-<p><b/>Applications for the Grid SST Hackathon are currently closed.</b> If you’re interested in participating in the event, please reach out to Alison Gray at argray&#64;uw.edu.</p>
-</div>
+<!-- Participants from a variety of research interests and backgrounds, including satellite remote sensing, physical oceanography, cloud computing, and data science and machine learning, are encouraged to apply. We are planning for a hands-on, productive, and fun-filled week!  
+
+Travel funds and lodgings are available for applicants coming from within the U.S.  Applicants will be notified of decisions by October 1. 
+
+```{admonition} Interested in the 2022 Grid SST Hackathon?
+:class: note
+
+<b/>Applications for the Grid SST Hackathon are currently closed.</b> If you're interested in participating in the event, please reach out to Alison Gray at argray@uw.edu.
+
+``` -->
+</section>
 <section id="the-challenge">
-<h2>The Challenge<a class="headerlink" href="#the-challenge" title="Permalink to this headline">#</a></h2>
+<h1>The Challenge<a class="headerlink" href="#the-challenge" title="Permalink to this headline">#</a></h1>
 <p>High resolution sea surface temperatures (SST) are a critical climate data record. Most existing approaches developed by the Group for High Resolution SST (GHRSST) were developed over a decade ago and depend on the transfer of vast amounts of satellite data to local data centers with appropriate cyberinfrastructure.</p>
 <p>The overarching goal and challenge of this hackathon is to create a new global, 1 km, daily, community-created open science blended SST analysis. The intended outcomes of this event are to re-imagine how a high temporal (daily), high spatial (1 km) SST dataset could be produced using passive microwave and infrared satellite SST data. Code and products developed within this event will be open to the scientific community and hosted on GitHub. The global, daily, 1 km dataset output will be in both GHRSST GDS2.0 netCDF4 and Zarr formats.</p>
+</section>
+<section id="information-for-participants">
+<h1>Information for Participants<a class="headerlink" href="#information-for-participants" title="Permalink to this headline">#</a></h1>
+<p>Please navigate to the following pages for more information while participating in the Grid SST Hackathon:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="logistics.html"><span class="doc std std-doc">Logistics</span></a> - This page contains information about the in-person and virtual components of the event.</p></li>
+<li><p><a class="reference internal" href="schedule.html"><span class="doc std std-doc">Schedule</span></a> - This page contains the schedule for the Hackathon event.</p></li>
+<li><p>Resources - There are several pages containing resources for the various tools we’ll be using during the Hackathon event:</p>
+<ul>
+<li><p><a class="reference internal" href="github.html"><span class="doc std std-doc">Git and GitHub</span></a> - All code collaboration will be hosted in a GitHub repository for this event.</p></li>
+<li><p><a class="reference internal" href="python.html"><span class="doc std std-doc">Python</span></a> - Python is a valuable, open-source programming language that participants are encouraged to familiarize themselves with in order to better contribute to the goal of this event.</p></li>
+<li><p><a class="reference internal" href="jupyter.html"><span class="doc std std-doc">JupyterHub</span></a> - All participants will be invited to work in a JupyterHub for this event. If you aren’t familiar with JupyterHub, JupyterLab, or Jupyter notebooks, you can find information on this page.</p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="coc.html"><span class="doc std std-doc">Code of Conduct</span></a> - All participants of the Grid SST Hackathon are responsible for familiarizing themselves with our Code of Conduct prior to participating in the hackathon event, regardless of whether their participation will be in-person or virtual.</p></li>
+</ul>
 <div class="toctree-wrapper compound">
 </div>
-<!--```{toctree}
-:hidden:
-:maxdepth: 2
-:caption: Resources
-
-What is a Hackathon? <hackathons>
-Learning Resources <resources>
-```-->
-</section>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
 </section>
 
 
