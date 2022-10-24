@@ -51,3 +51,9 @@ html_sidebars = {
         "sidebar-nav-bs.html"
     ]
 }
+
+
+# linkcheck_allowed_redirects = {
+#     # All HTTP redirections from the source URI to the canonical URI will be treated as "working".
+#     r'https://sphinx-doc\.org/.*': r'https://sphinx-doc\.org/en/master/.*'
+# }
