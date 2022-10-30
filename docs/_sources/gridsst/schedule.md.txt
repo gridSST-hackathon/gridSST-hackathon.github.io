@@ -27,7 +27,7 @@ Friday, 11/04
 The last day of the Hackathon will be a half-day, consisting of a wrap up on documentation, issues, and future steps for the work produced during the event. -->
 
 
-
+ 
 | Schedule      ||
 |-----------------|-------------------|
 | **Monday 10/31**    | The following discussion topics are planned for the first day of the event: <br>- An introduction to the Grid SST Hackathon, including goals, the Code of Conduct, and the agenda for the week <br>- An introduction to Sea Surface Temperature (SST) <br>- A discussion on the merging of multi-instrument algorithms <br>- A discussion on SST products / PODAAC <br>- Initial project formation |
