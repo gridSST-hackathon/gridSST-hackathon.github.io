@@ -44,8 +44,8 @@
     <script src="../_static/design-tabs.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Code of Conduct" href="coc.html" />
-    <link rel="prev" title="Python" href="python.html" />
+    <link rel="next" title="Python" href="python.html" />
+    <link rel="prev" title="Git and GitHub" href="github.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="docsearch:language" content="None">
   </head>
@@ -175,18 +175,23 @@
 </p>
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="github.html">
-   Git and GitHub
+  <a class="reference internal" href="sst.html">
+   SST
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="python.html">
-   Python
+  <a class="reference internal" href="github.html">
+   Git and GitHub
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    JupyterHub
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="python.html">
+   Python
   </a>
  </li>
 </ul>
@@ -231,6 +236,21 @@
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#jupyter-notebooks-and-the-jupyter-ecosystem">
+   Jupyter notebooks and the Jupyter ecosystem
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#why-use-a-shared-cloud-computing-environment">
+   Why use a shared cloud computing environment?
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-do-i-access-the-shared-cloud-environment">
+   How do I access the shared cloud environment?
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#references-and-resources">
    References and Resources
   </a>
@@ -256,7 +276,30 @@
                 
   <section id="jupyterhub">
 <h1>JupyterHub<a class="headerlink" href="#jupyterhub" title="Permalink to this headline">#</a></h1>
-<p>All participants will be invited to work in a JupyterHub for this event. If you aren’t familiar with JupyterHub, JupyterLab, or Jupyter notebooks, additional information will be added to this page.</p>
+<div class="note admonition">
+<p class="admonition-title">JupyterHub Access</p>
+<p>All participants have been invited to work in a shared cloud computing environment called JupyterHub. Click the button below to be brought to the JupyterHub login page.</p>
+<p><span class="sd-d-grid"><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-primary reference external" href="https://gridsst.2i2c.cloud/" title="Grid SST JupyterHub"><span>Log in to JupyterHub</span></a></span></p>
+</div>
+</section>
+<section id="jupyter-notebooks-and-the-jupyter-ecosystem">
+<h1>Jupyter notebooks and the Jupyter ecosystem<a class="headerlink" href="#jupyter-notebooks-and-the-jupyter-ecosystem" title="Permalink to this headline">#</a></h1>
+<p>You may have heard of <a class="reference external" href="https://en.wikipedia.org/wiki/Project_Jupyter">Jupyter</a> – an open computing “ecosystem” developed by <a class="reference external" href="https://jupyter.org">Project Jupyter</a>. This ecosystem is described succinctly and effectively in <a class="reference external" href="https://jupyter4edu.github.io/jupyter-edu-book/">the online open book, Teaching and Learning with Jupyter</a>:</p>
+<blockquote>
+<div><p>Project Jupyter is three things: a collection of standards, a community, and a set of software tools. Jupyter Notebook, one part of Jupyter, is software that creates a Jupyter notebook. A Jupyter notebook is a document that supports mixing executable code, equations, visualizations, and narrative text. Specifically, Jupyter notebooks allow the user to bring together data, code, and prose, to tell an interactive, computational story. (<a class="reference external" href="https://jupyter4edu.github.io/jupyter-edu-book/why-we-use-jupyter-notebooks.html#but-first-what-is-jupyter-notebook"><em>“2.2 But first, what is Jupyter Notebook?”</em></a>)</p>
+</div></blockquote>
+<p>See the <span class="xref myst">resources at the end of this page</span>.</p>
+</section>
+<section id="why-use-a-shared-cloud-computing-environment">
+<h1>Why use a shared cloud computing environment?<a class="headerlink" href="#why-use-a-shared-cloud-computing-environment" title="Permalink to this headline">#</a></h1>
+<p>Collaborating on programming projects with a diverse group of coders across multiple different systems can be a challenge. One solution is to invite all participants to work in a cloud computing environment that is pre-configured for the specific software we will deploy. This cloud computing instance can be accessed from any web browser, which eliminates the need for configuring each person’s individual computer. For this hackathon we have created virtual computing instances that can be deployed on demand in a parallel computing environment. We use JupyterHub as a way to give a Jupyter Notebook server (<a class="reference external" href="https://jupyterlab.readthedocs.io/en/stable/">JupyterLab</a>) to each person in a group. JupyterHub enables us to quickly begin working with code without spending time to get the necessary libraries and dependencies set up on everyone’s individual computers.</p>
+<p>We encourage you to use our shared JupyterHub resources for your projects. We also hope you will practice installing Python libraries locally on your system so that you can continue working after leaving our event.</p>
+</section>
+<section id="how-do-i-access-the-shared-cloud-environment">
+<h1>How do I access the shared cloud environment?<a class="headerlink" href="#how-do-i-access-the-shared-cloud-environment" title="Permalink to this headline">#</a></h1>
+<p>The shared cloud environment (JupyterHub) can be accessed here: <a class="reference external" href="https://gridsst.2i2c.cloud/">https://gridsst.2i2c.cloud/</a></p>
+<p>After opening the above link, click “Log in to continue”, then click “Sign in with GitHub” to grant JupyterHub the required permissions. In the next window, enter your GitHub username (or email address) and password.</p>
+<p>You will then see a message that says “Your server is starting up.” It will take a bit of time for this to load - be patient! Once things are spun up you will see your very own instance of a <a class="reference external" href="https://jupyterlab.readthedocs.io/en/stable/">JupyterLab</a> graphical user interface.</p>
 </section>
 <section id="references-and-resources">
 <h1>References and Resources<a class="headerlink" href="#references-and-resources" title="Permalink to this headline">#</a></h1>
@@ -274,6 +317,7 @@
 <li><p><a class="reference external" href="http://bebi103.caltech.edu.s3-website-us-east-1.amazonaws.com/2019a/content/lessons/lesson_00/l00b_intro_to_jupyterlab.html">Lesson 0b: Introduction to JupyterLab - (Justin Bois) Introduction to Data Analysis in the Biological Sciences, Caltech</a></p></li>
 <li><p><a class="reference external" href="https://towardsdatascience.com/jupyter-lab-evolution-of-the-jupyter-notebook-5297cacde6b">Jupyter Lab: Evolution of the Jupyter Notebook. An overview of JupyterLab, the next generation of the Jupyter Notebook.</a></p></li>
 </ul>
+<p>Many of the resources shared here have been gathered by the team at <a class="reference external" href="https://oceanhackweek.github.io/index.html">Ocean Hack Week</a>.</p>
 </section>
 
 
@@ -284,17 +328,17 @@
               <footer class="bd-footer-article">
                   <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-  <a class='left-prev' id="prev-link" href="python.html" title="previous page">
+  <a class='left-prev' id="prev-link" href="github.html" title="previous page">
       <i class="fas fa-angle-left"></i>
       <div class="prev-next-info">
           <p class="prev-next-subtitle">previous</p>
-          <p class="prev-next-title">Python</p>
+          <p class="prev-next-title">Git and GitHub</p>
       </div>
   </a>
-  <a class='right-next' id="next-link" href="coc.html" title="next page">
+  <a class='right-next' id="next-link" href="python.html" title="next page">
   <div class="prev-next-info">
       <p class="prev-next-subtitle">next</p>
-      <p class="prev-next-title">Code of Conduct</p>
+      <p class="prev-next-title">Python</p>
   </div>
   <i class="fas fa-angle-right"></i>
   </a>

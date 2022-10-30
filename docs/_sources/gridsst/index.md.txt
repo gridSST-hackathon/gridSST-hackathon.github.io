@@ -49,9 +49,10 @@ logistics
 :maxdepth: 2
 :caption: Resources
 
+sst
 github
-python
 jupyter
+python
 ```
 
 ```{toctree}
