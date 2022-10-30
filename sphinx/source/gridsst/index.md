@@ -27,9 +27,10 @@ Please navigate to the following pages for more information while participating 
 - [Logistics](logistics.md) - This page contains information about the in-person and virtual components of the event.
 - [Schedule](schedule.md) - This page contains the schedule for the Hackathon event.
 - Resources - There are several pages containing resources for the various tools we'll be using during the Hackathon event:
+    - [SST](sst.md) - The focus of this hackathon is on kickstarting the development of a new open science blended SST analysis. Resources about SST can be found on this page.
     - [Git and GitHub](github.md) - All code collaboration will be hosted in a GitHub repository for this event.
-    - [Python](python.md) - Python is a valuable, open-source programming language that participants are encouraged to familiarize themselves with in order to better contribute to the goal of this event. 
     - [JupyterHub](jupyter.md) - All participants will be invited to work in a JupyterHub for this event. If you aren't familiar with JupyterHub, JupyterLab, or Jupyter notebooks, you can find information on this page. 
+    - [Python](python.md) - Python is a valuable, open-source programming language that participants are encouraged to familiarize themselves with in order to better contribute to the goal of this event. 
 - [Code of Conduct](coc.md) - All participants of the Grid SST Hackathon are responsible for familiarizing themselves with our Code of Conduct prior to participating in the hackathon event, regardless of whether their participation will be in-person or virtual. 
 
 
