@@ -4,4 +4,7 @@ The schedule for the Grid SST Hackathon event is outlined below. Breakfast and l
 
 
 
+
 ![schedule](assets/schedule.png)
+
+Note that all times are shown in Pacific Time.
